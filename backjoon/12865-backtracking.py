@@ -37,6 +37,7 @@ def frac(a,b):
             break
         else :
             result+=(reason[i][1]/reason[i][0])*b
+            break
     return result
 
 N, K = map(int, input().split()) #N은 갯수, K는 가방이 버틸 수 있는 크기
